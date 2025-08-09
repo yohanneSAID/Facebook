@@ -517,7 +517,7 @@ const styles = StyleSheet.create({
     resizeMode: 'cover',
     zIndex: 1,
     marginRight: 7,
-    position: 'relative', // 👈 important !
+    position: 'relative', //important 
     zIndex: 1,
   },
 
@@ -530,7 +530,7 @@ const styles = StyleSheet.create({
     height: 50,
     justifyContent: 'center',
     alignItems: 'center',
-    zIndex: 1, //  📌 Il contrôle l’ordre d’empilement des composants dans l’interface.
+    zIndex: 1, //   Il contrôle l’ordre d’empilement des composants dans l’interface.
     // Un zIndex plus élevé met l’élément devant les autres.
     // Un zIndex plus faible le met derrière les autres.
   },
